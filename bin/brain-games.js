@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 import readlineSync from "readline-sync";
 console.log("Welcome to the Brain Games!");
-var userName = readlineSync.question('May I have your name? ');
+const userName = readlineSync.question('May I have your name? ');
 console.log('Hi ' + userName + '!');
