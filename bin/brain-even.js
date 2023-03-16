@@ -22,9 +22,11 @@ for (let i = 0; i < 3; i += 1) {
         } else if (quEstion !== 'yes' && quEstion !== 'no') {
             if (numba % 2 === 0) {
                 console.log(`${quEstion} is wrong answer ;(. Correct answer was "yes"`);
+                console.log(`Let's try again, ${userName}!`)
             }
             else {
                 console.log(`${quEstion} is wrong answer ;(. Correct answer was "no"`);
+                console.log(`Let's try again, ${userName}!`)
             }
         }
         break;

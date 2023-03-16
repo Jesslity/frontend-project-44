@@ -4,8 +4,8 @@
   "description": "[![Actions Status](https://github.com/Jesslity/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Jesslity/frontend-project-44/actions)",
   "main": "index.js",
   "bin": {
-    "brain-even": "bin/brain-even.js",
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"    
   },
   "type": "module",
   "scripts": {
