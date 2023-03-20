@@ -8,8 +8,8 @@ console.log(`Hi ${userName}!`);
 console.log('Answer "yes" if the number is even, otherwise answer "no".');
 for (let i = 0; i < 3; i += 1) {
     const numba = _.random(1,5);
-    const quEstion = readlineSync.question(`Question: ${numba} `);
-    console.log(`Your answer: ${quEstion}`);
+    console.log(`Question: ${numba} `);
+    const quEstion = readlineSync.question(`Your answer: `);
     if ( quEstion === 'yes' && numba % 2 === 0 || quEstion === 'no' && numba % 2 !== 0) {
         if (i !== 2) {
             console.log(`Correct!`);   
