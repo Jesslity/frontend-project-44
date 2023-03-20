@@ -4,3 +4,5 @@
 <a href="https://codeclimate.com/github/Jesslity/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/d5fe49f8b6be9a32b3be/maintainability" /></a>
 
  https://asciinema.org/a/lisS33p3fvwoWwxh0UsT46E6t
+
+ https://asciinema.org/a/UBKviRBxIdiTYKOEb1COYyjoL
