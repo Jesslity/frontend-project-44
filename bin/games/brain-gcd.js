@@ -25,8 +25,8 @@ const userName = readlineSync.question('May I have your name?');
 console.log(`Hi ${userName}!`);
 console.log('Find the greatest common divisor of given numbers.');
 for (let i = 0; i < 3; i += 1) {
-  const a = _.random(1, 10);
-  const b = _.random(1, 10);
+  const a = _.random(1, 100);
+  const b = _.random(1, 100);
   console.log(`Question: ${a} ${b} `);
   const quEstion = readlineSync.question('Your answer: ');
   const result1 = String(gcd(a, b));
