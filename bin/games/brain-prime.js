@@ -31,7 +31,7 @@ for (let i = 0; i < 3; i += 1) {
     console.log('Correct!');
     console.log(`Congratulations, ${userName}!`);
   } else {
-    console.log(`'${quEstion}' is wrong answer ;(. Correct answer was '${abc}'`);
+    console.log(`'${quEstion}' is wrong answer ;(. Correct answer was '${prime(z)}'`);
     console.log(`Let's try again, ${userName}!`);
     break;
   }
