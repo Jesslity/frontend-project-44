@@ -28,7 +28,7 @@ for (let i = 0; i < 3; i += 1) {
   const a = _.random(1, 10);
   const b = _.random(1, 10);
   const c = _.random(1, 10);
-  console.log(`Question ${brainProg(a, b, c)}`);
+  console.log(`Question: ${brainProg(a, b, c)}`);
   const quEstion = readlineSync.question('Your answer: ');
   if (mumba.join() === quEstion && i !== 2) {
     console.log('Correct!');
