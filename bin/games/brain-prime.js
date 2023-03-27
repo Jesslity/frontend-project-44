@@ -3,7 +3,7 @@ import readlineSync from 'readline-sync';
 import _ from 'lodash';
 
 const prime = (number) => {
-  let abc ;
+  let abc;
   for (let i = 2; i < number; i += 1) {
     if (number % i === 0) {
       abc = 'no';
