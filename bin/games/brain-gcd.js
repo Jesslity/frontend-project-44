@@ -23,7 +23,7 @@ const gcd = (a, b) => {
 console.log('brain-gcd');
 console.log('Welcome to the Brain Games!');
 const userName = readlineSync.question('May I have your name?');
-console.log(`Hi ${userName}!`);
+console.log(`Hello, ${userName}!`);
 console.log('Find the greatest common divisor of given numbers.');
 for (let i = 0; i < 3; i += 1) {
   const a = _.random(1, 100);
