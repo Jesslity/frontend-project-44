@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint-disable no-param-reassign */
 import readlineSync from 'readline-sync';
 import _ from 'lodash';
 
