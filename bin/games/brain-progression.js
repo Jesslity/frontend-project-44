@@ -27,7 +27,7 @@ console.log('What number is missing in the progression?');
 for (let i = 0; i < 3; i += 1) {
   const a = _.random(1, 10);
   const b = _.random(1, 10);
-  const c = _.random(1, 10);
+  const c = _.random(1, 9);
   console.log(`Question: ${brainProg(a, b, c)}`);
   const quEstion = readlineSync.question('Your answer: ');
   if (mumba.join() === quEstion && i !== 2) {
