@@ -7,9 +7,10 @@
 **Simple console Games with basic arithmetics**
 
 ## Get started
-Clone the repository -> use make install command. Thereafter use 'npm link'. Success, games ready to play!
 
 **System Requirements**: Any Linux system, macOS, Windows with WSL2. Node.js v13 or higher.
+
+Clone the repository -> use `make install` command. Thereafter use 'npm link'. Success, games ready to play!
 
 ### Games
 **Even**
