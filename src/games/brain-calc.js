@@ -12,7 +12,7 @@ const calculate = (number1, number2, operation) => {
     case '*':
       return number1 * number2;
     default:
-      return number1;
+      return 'x';
   }
 };
 
@@ -22,7 +22,7 @@ const game = () => {
   const randomSign = signs[_.random(0, 2)];
   const question = `${randomNumber1} ${randomSign} ${randomNumber2}`;
   const result = calculate(randomNumber1, randomNumber2, randomSign);
-  return [question, String(result)];
+  return [String(result), question];
 };
 
 export default () => startGame(rules, game);
