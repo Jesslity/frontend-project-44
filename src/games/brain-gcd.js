@@ -3,20 +3,10 @@ import startGame from '../index.js';
 
 const rules = 'Find the greatest common divisor of given numbers.';
 const greatestDivisor = (number1, number2) => {
-  if (number1 > number2) {
-    while (number1 % number2 !== 0) {
-      const number3 = number1 % number2;
-      number1 = number2;
-      number2 = number3;
-    }
-    return number2;
+  if (!number2) {
+    return number1;
   }
-  while (number2 % number1 !== 0) {
-    const number3 = number2 % number1;
-    number2 = number1;
-    number1 = number3;
-  }
-  return number1;
+  return greatestDivisor(number2, number1 % number2);
 };
 
 const game = () => {
