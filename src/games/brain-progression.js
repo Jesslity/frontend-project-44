@@ -20,7 +20,7 @@ const brainProgression = (firstNumber, step, missingNumber) => {
 const game = () => {
   const firstNumber = _.random(1, 10);
   const step = _.random(1, 10);
-  const missingNumber = _.random(1, 10);
+  const missingNumber = _.random(1, 9);
   const question = `${brainProgression(firstNumber, step, missingNumber)}`;
   const result = arrResult.join();
   return [result, question];
