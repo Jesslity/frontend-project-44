@@ -1,22 +1,16 @@
 import _ from 'lodash';
 import startGame from '../index.js';
 
-const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
-const even = (number1) => {
-  let evenResult;
-  if (number1 % 2 === 0) {
-    evenResult = 'yes';
-  } else {
-    evenResult = 'no';
-  }
-  return evenResult;
-};
+const rule = 'Answer "yes" if the number is even, otherwise answer "no".';
+const minRandomNumber = 1;
+const maxRandomNumber = 10;
+const isEven = (number) => number % 2 === 0;
 
-const game = () => {
-  const randomNumber = _.random(1, 10);
+const generateRound = () => {
+  const randomNumber = _.random(minRandomNumber, maxRandomNumber);
   const question = `${randomNumber}`;
-  const result = even(randomNumber);
+  const result = isEven(question) ? 'yes' : 'no';
   return [result, question];
 };
 
-export default () => startGame(rules, game);
+export default () => startGame(rule, generateRound);

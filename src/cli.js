@@ -1,5 +1,9 @@
-const readlineSync = require('readline-sync');
+import readlineSync from 'readline-sync';
 
-// Wait for user's response.
-const userName = readlineSync.question('May I have your name? ');
-console.log(`Hello${userName}!`);
+const greeting = () => {
+  console.log('Welcome to the Brain Games!');
+  const name = readlineSync.question('May I have your name? ');
+  console.log(`Hello, ${name}!`);
+  return name;
+};
+export default greeting;
